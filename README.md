@@ -10,9 +10,9 @@ Red Black Tree has these properties:<br>
 4. Every path from node to descendent leaf contains the same number of black nodes<br>
 5. The root is always black<br>
 
-<b>Red Black tree Methods<b><br>
+<b>Red Black tree Methods</b><br>
 
-My implementation consists of the following methods, the most critical of which is RBTree Fixup to ensure that the RB tree maintains its properties after new nodes are added.<br><br>
+My implementation consists of the following methods, the most critical of which is RBTree Fixup to ensure that the RB tree maintains its properties after new nodes are added.<br>
 
 while x != root[T] and color[x] = BLACK<br>
     do if x = left[p[x]]<br>
